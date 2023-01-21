@@ -1,0 +1,14 @@
+{
+  "outboundUSSDMessageRequest":{
+    "address":"tel:94777777745",
+    "shortCode":"1234",
+    "keyword": "123",
+    "outboundUSSDMessage":"sms",
+    "clientCorrelator":"s",
+    "responseRequest":{
+      "notifyURL":"http://35.237.228.192:9091/ussdmt/inbound",
+      "callbackData":"some-data-useful-to-the-requester"
+    },
+    "ussdAction": "mtinit"
+  }
+}

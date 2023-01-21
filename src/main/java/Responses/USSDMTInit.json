@@ -1,0 +1,15 @@
+{
+  "outboundUSSDMessageRequest": {
+    "address": " tel:+123456789",
+    "keyword": "123",
+    "shortCode": "tel:1721",
+    "outboundUSSDMessage": " Login to service?\n1. Ok\n2. Cancel",
+    "clientCorrelator": "123456:AIN12345",
+    "responseRequest": {
+      "notifyURL": "https://gateway3a.mife.sla-mobile.com.my:8243/ussd/v1/inbound/137",
+      "callbackData": "some-data-useful-to-the-requester"
+    },
+    "ussdAction": "mtinit",
+    "deliveryStatus": "SENT"
+  }
+}
